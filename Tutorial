@@ -1,0 +1,4 @@
+Requisitos
+Instale o Node.js e o pacote bitcoinjs-lib:
+
+npm install bitcoinjs-lib
