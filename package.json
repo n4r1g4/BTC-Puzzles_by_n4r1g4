@@ -1,0 +1,15 @@
+{
+    "name": "bitcoin-finder",
+    "version": "1.0.0",
+    "description": "Script para encontrar Bitcoins em uma carteira puzzle",
+    "main": "findBitcoin.js",
+    "scripts": {
+      "start": "node findBitcoin.js"
+    },
+    "dependencies": {
+      "bitcoinjs-lib": "^6.0.0"
+    },
+    "author": "6u5t4v0 5ouz4",
+    "license": "ISC"
+  }
+

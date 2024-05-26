@@ -1,0 +1,17 @@
+# Usar uma imagem base do Node.js
+FROM node:14
+
+# Diretório de trabalho dentro do contêiner
+WORKDIR /app
+
+# Copiar package.json e package-lock.json para instalar dependências
+COPY package*.json ./
+
+# Instalar dependências
+RUN npm install
+
+# Copiar todo o código do aplicativo para o contêiner
+COPY . .
+
+# Comando para executar o script principal
+CMD ["node", "findBitcoin.js"]
